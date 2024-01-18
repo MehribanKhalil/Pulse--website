@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --main-color:#FFC515;
+}
+
+h1{
+    font-size: clamp(2.5rem, -2.9688rem + 17.5vw, 6.875rem);
+}
+
+.section{
+    @apply px-6 md:px-24 lg:px-32 xl:px-48
+}
+
+.page{
+    @apply min-h-[100vh]
+
+}
